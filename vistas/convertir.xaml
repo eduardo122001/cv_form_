@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="form.vistas.convertir">
+
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label  Text="Nombre y apellidos:"/>
+            <Label Text="" x:Name="fnombre"/>
+        </StackLayout> 
+        <StackLayout Grid.Row="1" Grid.Column="0" >
+            <Label  Text="Nacimiento:"/>
+            <Label Text="" x:Name="fnacimiento"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="1">
+            <Label  Text="Ocupación:"/>
+            <Label Text="" x:Name="focupacion"/>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="0" >
+            <Label  Text="Nacionalidad:" />
+            <Label Text="" x:Name="fnacionalidad"/>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="1" >
+            <Label  Text="Nivel de Ingles" />
+            <Label Text="" x:Name="fnivel"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Grid.Column="0" >
+            <Label  Text="Lenguajes Programación:"/>
+            <Label Text="" x:Name="flenguaje"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="3" Grid.Column="1">
+            <Label  Text="Habilidades:"/>
+            <Label Text="" x:Name="fhabilidad"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label  Text="Perfil:"/>
+            <Label Text="" x:Name="fperfil"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

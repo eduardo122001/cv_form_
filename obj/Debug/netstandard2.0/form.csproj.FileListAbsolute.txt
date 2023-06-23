@@ -1,0 +1,16 @@
+C:\Users\lenovo\source\repos\form\form\form\bin\Debug\netstandard2.0\form.deps.json
+C:\Users\lenovo\source\repos\form\form\form\bin\Debug\netstandard2.0\form.dll
+C:\Users\lenovo\source\repos\form\form\form\bin\Debug\netstandard2.0\ref\form.dll
+C:\Users\lenovo\source\repos\form\form\form\bin\Debug\netstandard2.0\form.pdb
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\form.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\form.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\form.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\form.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\form.dll
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\refint\form.dll
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\form.pdb
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\vistas\MainPage.xaml.g.cs
+C:\Users\lenovo\source\repos\form\form\form\obj\Debug\netstandard2.0\vistas\convertir.xaml.g.cs

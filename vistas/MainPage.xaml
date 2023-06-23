@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="form.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+                <StackLayout Orientation="Vertical">
+                <Label Text="Nombres y Apellidos:" />
+                <Entry x:Name="nombres" Placeholder="Nombres y Apellidos" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Fecha de nacimiento:" />
+                <Entry x:Name="fechas" Placeholder="Enter your occupation" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ocupacion:" />
+                <Entry x:Name="profesions" Placeholder="Profesion/Ocupacion/" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nacionalidad:" />
+                <Picker x:Name="select_nac" Title="elige uno" TitleColor="Red" SelectedIndexChanged="select_nac_SelectedIndexChanged" > 
+                    <Picker.Items>
+                        <x:String>Peruano</x:String>
+                        <x:String>Boliviano</x:String>
+                        <x:String>Argentino</x:String>
+                    </Picker.Items>
+                </Picker>
+     
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nivel de ingles:" />
+                
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <RadioButton x:Name="Bajas" GroupName="groupOptions" />
+                        <Label Text="Baja" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <RadioButton x:Name="Medias" GroupName="groupOptions" />
+                        <Label Text="Media" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <RadioButton x:Name="Altas" GroupName="groupOptions" />
+                        <Label Text="Alta" />
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="lenguajes programacion:" />
+                <Entry x:Name="lenguajes" Placeholder="lenguajes que dominas" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Habilidades:" />
+                <Entry x:Name="habilidades" Placeholder="Enter your address" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Perfil:" />
+                <Entry x:Name="perfils" Placeholder="Perfil Personal" />
+            </StackLayout>
+            <Button Text="Enviar" 
+            x:Name="btn_next"        
+            Clicked="btn_next_Clicked" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
